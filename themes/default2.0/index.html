@@ -127,6 +127,9 @@
 													{{ #img }}
 													<img width="200" height="112" src="{{ &img }}" class="alignleft wp-post-image" alt="" loading="lazy" />
 													{{ /img }}
+													{{ ^img }}
+													<img width="200" height="112" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" class="alignleft wp-post-image" alt="" loading="lazy" />
+													{{ /img }}
 												</a>
 											</div>
 											<p>{{ &contentText }} ...
